@@ -1,0 +1,92 @@
+.main-nav3{
+    background-color: 	#75a398;
+    height: 4rem;
+    display: grid;
+    grid-template-columns: 10rem 0.6fr 1.7fr 0.4fr 10rem;
+    box-shadow: rgba(50, 93, 89, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    
+    
+}
+
+
+.pizza-logo2 {
+    display: grid;
+    grid-column: 2/3;
+    justify-content: flex-start;
+    align-items: center;   
+}
+
+
+.menu-link1{
+  grid-column: 4/5;
+}
+
+
+.hamburg-menu{
+  grid-column: 1/2;
+}
+
+.hamburg-menu ul{
+  height: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+  justify-content: space-around;
+  align-items: center;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+
+.hamburg-menu ul li {
+display: inline-block;
+cursor: pointer;
+}
+
+.hamburg-menu ul li:hover ul {
+display: block;
+cursor: pointer;
+}
+
+.hamburg-menu ul li ul {
+position: absolute;
+width: 300px;
+display: none;
+
+}
+.hamburg-menu ul li ul li { 
+background: wheat; 
+display: block;
+border: 2px solid black;
+border-radius: 1px;
+z-index: auto;
+}
+.hamburg-menu ul li ul li a {
+display:block !important;
+color: black;
+text-decoration: none;
+} 
+.hamburg-menu ul li ul li:hover {background: #adb81a;}
+
+
+
+
+
+
+
+.menu-link3 ul li ul li:hover {background: #adb81a;}
+
+  @media (max-width: 1080px) {
+    .main-nav3 {
+      height: 5rem;
+      grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
+    }
+  
+    .pizza-logo2,
+    .hamburg-menu ul{
+      height: 8rem;
+    }
+  }

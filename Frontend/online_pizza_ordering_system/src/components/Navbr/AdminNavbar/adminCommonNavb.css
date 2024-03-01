@@ -1,0 +1,54 @@
+.common-nav-admin{
+    
+    background-color: 	#75a398;
+    
+    
+    height: 4rem;
+    display: grid;
+    grid-template-columns: 5rem 0.5fr 2fr 0.6fr 3rem;
+    box-shadow: rgba(50, 93, 89, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* position: sticky;
+    top: 0; */
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    top: 0;    
+}
+
+
+.pizza-logo {
+    display: grid;
+    grid-column: 2/3;
+    justify-content: flex-start;
+    align-items: center;   
+}
+
+.common-link-admin{
+    grid-column: 4/5;
+}
+
+.common-link-admin ul{
+    height: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    justify-content: space-around;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .common-link-admin ul li:second-child{
+      grid-column: 3/4;
+  }
+
+  @media (max-width: 1080px) {
+    .common-nav-admmin {
+      height: 5rem;
+      grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
+    }
+  
+    .pizza-logo,
+    .common-link-admin ul{
+      height: 8rem;
+    }
+  }

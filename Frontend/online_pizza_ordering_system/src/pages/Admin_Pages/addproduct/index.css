@@ -1,0 +1,66 @@
+/* h1.title {
+  text-align: center;
+}
+
+
+.background-img{
+ 
+  background-image: url("../../../images/login_background.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width:100vw;
+
+} */
+
+
+.btn-margin{
+margin-bottom: 20px;
+}
+
+.top-margin{
+  margin-top: 20px;
+}
+
+.margin{
+  margin-top: 50px;
+}
+
+/* .border1{
+   border-style: solid ;
+ 
+  margin: 30px; 
+  border-radius: 20px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px rgb(63, 60, 46);
+  
+} */
+
+
+/* .border-product{
+  border-style: solid ;
+
+ margin: 20px 30px 30px 30px; 
+ border-radius: 7px;
+ border: 1px solid rgb(211, 162, 162);
+ padding: 30px;
+ box-shadow: 5px 10px 18px rgb(214, 214, 214);
+ background-color: rgba(255, 255, 255, 0.952);
+}  */
+
+/* .border-product label{
+ color: black;
+}  */
+
+.border-product{
+  border-style: solid ;
+  border-radius: 5px;
+  margin: 15px 30px 30px 30px;
+  padding: 5px 25px 25px 25px;
+  border-width:3px ;
+  box-shadow: 5px 10px 18px rgb(63, 60, 46);
+
+ }

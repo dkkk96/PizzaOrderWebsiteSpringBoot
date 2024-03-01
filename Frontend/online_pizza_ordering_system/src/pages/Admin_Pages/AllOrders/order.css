@@ -1,0 +1,32 @@
+.container-Aorder{
+    /* background-color: rgba(116, 117, 117, 0.103); */
+    background-color: rgb(216, 216, 216);
+    margin-top: 10px;
+    
+    padding: 20px 20px 70px 20px;
+    border-radius: 5px;
+    height: 73vh;
+    overflow: hidden;
+}
+
+.customerorder-bg{
+ 
+    background-image: url("../../../../public/images/checkout-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:100%;
+    overflow-y: hidden;
+  
+  } 
+
+/* .container-order{
+    background-color: rgb(216, 216, 216);
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    height: 73vh;
+    
+} */

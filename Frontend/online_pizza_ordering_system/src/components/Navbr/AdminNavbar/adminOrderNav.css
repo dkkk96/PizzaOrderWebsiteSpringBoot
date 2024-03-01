@@ -1,0 +1,50 @@
+.order-nav-admin{
+    background-color: 	#75a398;
+    height: 4rem;
+    display: grid;
+    grid-template-columns: 5rem 0.5fr 1.5fr 1.25fr 2rem;
+    box-shadow: rgba(50, 93, 89, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    top: 0;    
+}
+
+
+.pizza-logo {
+    display: grid;
+    grid-column: 2/3;
+    justify-content: flex-start;
+    align-items: center;   
+}
+
+.order-link-admin{
+    grid-column: 4/5;
+}
+
+.order-link-admin ul{
+    list-style-type:none;
+    height: 4rem;
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr 0.65fr 1fr;
+    align-items: center;
+    justify-content: flex-start;
+    
+  }
+
+  .order-link-admin ul li:first-child{
+    grid-column: 1/2;
+}
+
+  @media (max-width: 1080px) {
+    .order-nav-admmin {
+      height: 5rem;
+      grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
+    }
+  
+    .pizza-logo,
+    .order-link-admin ul{
+      height: 8rem;
+    }
+  }

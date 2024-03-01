@@ -1,0 +1,15 @@
+.inputbox-size
+{
+  width: 200px;
+  
+}
+
+.border-sub{
+  border-style: solid ;
+  border-radius: 5px;
+  margin: 80px 30px 30px 30px;
+  padding: 5px 25px 25px 25px;
+  border-width:3px ;
+  box-shadow: 5px 10px 18px rgb(63, 60, 46);
+
+ }

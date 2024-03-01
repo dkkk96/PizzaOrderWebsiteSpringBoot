@@ -1,0 +1,55 @@
+
+.container-payment{
+    /* background-color: rgb(243, 243, 243); */
+    background-color: rgb(36, 32, 32);
+    height: 70vh;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-right: 15%;
+    padding: 30px;
+    /* box-shadow: 5px 10px 18px rgb(197, 195, 190); */
+    margin-top: 70px;
+    border: solid rgb(172, 169, 169);
+    
+}
+
+/* .container-payment{
+
+  
+} */
+
+.pay-amt{
+    /* background-color: rgb(243, 243, 243); */
+    background-color: rgba(170, 152, 152, 0.171);
+    height: 30vh;
+    border-radius: 5px;
+    padding: 30px;
+    /* box-shadow: 5px 10px 18px rgb(197, 195, 190); */
+    margin-top: 70px;
+    margin-right: 20%;
+    border: solid rgb(172, 169, 169);
+}
+
+
+/* .bg-payment{
+    background-color: lightgrey;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding-top: 80px;
+} */
+
+.payment-bg{
+ 
+    background-image: url("../../../../public/images/checkout-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:100%;
+    overflow-y: hidden;
+  
+  } 
+
